@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Company Soluções</title>
+    <link rel="stylesheet" href="assets/css/cabecalho.css">
+    <link rel="stylesheet" href="assets/css/conteudo.css">
+    <link rel="stylesheet" href="assets/css/rodape.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Slabo+27px" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Cabeçalho do site -->
+    <header>
+        <!-- Cabeçalho TOPO fininho LOGO empresa -->
+        <nav class="menu-topo">
+            <div class="menu-topo-box">
+                <ul>
+                    <li>
+                        <a href="#" class="menu-topo-link" title="Facebook">Facebook</a>
+                    </li>
+                    <li>
+                        <a href="#" class="menu-topo-link" title="Email">Email</a>
+                    </li>
+                    <li>
+                        <a href="#" class="menu-topo-link" title="Abrir Chamado">Abrir Chamado</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- Cabeçalho do Menu + LOGO EMPRESA -->
+            <div class="menu">
+                <!-- LOGO EMPRESA -->
+                <div class="menu-box">
+                    <img src="assets/images/company.png" alt="Company Soluções">
+                </div>
+                <!-- Menu de links principal -->
+                <div class="menu-box">
+                    <ul>
+                        <li>
+                            <a href="index.html" class="menu-link" title="Home">Home</a>
+                        </li>
+                        <li>
+                            <a href="company.html" class="menu-link" title="A Company">A Company</a>
+                        </li>
+                        <li>
+                            <a href="produtos.html" class="menu-link" title="Produtos">Produtos</a>
+                        </li>
+                        <li>
+                            <a href="clientes.html" class="menu-link" title="Clientes">Clientes</a>
+                        </li>
+                        <li>
+                            <a href="contato.html" class="menu-link" title="Contato">Contato</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+    <!-- Corpo do site -->
+    <main>
+        <!-- Banner grande pagina principal -->
+        <div class="banner-internal">
+            <!-- Texto Banner grande pagina principal -->
+            <div class="banner-internal-box">
+                <h1>Contato</h1>
+                <p><a href="index.html" class="menu-topo-link">Home</a> &rarr; Contato</p>
+            </div>
+            <!-- Video Banner grande pagina principal -->
+        </div>
+        <!-- Conteudo do site principal -->
+        <div class="conteudo">
+            <!-- Divisor das divisaozinhas site principal -->
+            <div class="conteudo-box">
+                <!-- Divisorzinhas das divisaozinhas site principal -->
+                
+                <div class="conteudo-big-box">
+
+                        <!-- DIV doForm de Contato  -->
+                    <div class="conteudo-contato-box">
+                        <!-- Imagem Form de Contato  -->
+                        <div class="conteudo-mini-box-img"> 
+                            <img class="img-Contact" src="assets/images/coffee-cup-desk-pen.jpg">
+                        </div>
+                            <!-- Form de Contato  -->
+                        <form action="#" method="POST">
+                            <div>
+                                <label for="nome">Nome:</label>
+                                <input required type="text" id="nome"> 
+                            </div>
+                            <div>
+                                <label for="email">Email:</label>
+                                <input required type="email" id="email">
+                            </div>
+                            <div>
+                                <label for="telefone">Telefone (99)9999-9999: </label>
+                                <input type="tel"   pattern="\(\d{2}\)\d{4}-\d{4}" id="telefone">
+                            </div>
+                            <div>
+                                <label for="sexo">Sexo:</label>
+                                <input class="btn-radio" type="radio" name="sexo">Masculino
+                                <input type="radio" name="sexo">Feminino
+                            </div>
+                            <div>
+                                <label for="mensagem">Mensagem:</label>
+                                <textarea  id="mensagem"></textarea>
+                            </div>
+                            <div>
+                                <button class="btn-conteudo" type="submit">Enviar</button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="conteudo-contato-lateral-box">
+                        <p>Dados para contato:
+                        <h3>rodrigofelippeac@gmail.com<br>
+                            (69) 981336194<br> 
+                            (69) 981336194<br>
+                        </h3> <dfn></dfn>
+                    </p>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="conteudo-box-parceiros-sombra">
+                <div class="conteudo-box-parceiros">
+                    <h2>Parceiros</h2>
+                    <div class="conteudo-box-parceiros-content">
+                        <div class="conteudo-box-parceiros-content-img">
+                            <img src="assets/images/android.png" class="imagemTransparente" alt="Android">
+                        </div>
+                        <div class="conteudo-box-parceiros-content-img">
+                            <img src="assets/images/partnertotvs.png" class="imagemTransparente" alt="Android">
+                        </div>
+                        <div class="conteudo-box-parceiros-content-img">
+                            <img src="assets/images/companytec.png" class="imagemTransparente" alt="Android">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Rodapé do site -->
+    <footer>
+        <div class="rodape">
+            <div class="rodape-copy">
+                Copyright © 2018 Rodrigo Felippe | Company Soluções
+            </div>
+            <div class="rodape-copy">
+                <a href="#" id="scroll_to_top" class="menu-topo-link">Ir para o topo</a>
+            </div>
+        </div>
+
+    </footer>
+
+</body>
+
+</html>

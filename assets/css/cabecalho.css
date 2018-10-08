@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+/*-----------------------------------------------------------------*/
+/* 1. Fotes e cor do Body. Menu do TOPO
+/*-----------------------------------------------------------------*/
+body {
+    font-family:"HelveticaNeue-Regular","Helvetica Neue",Helvetica,Arial,sans-serif;
+    line-height:1;
+    margin:0;
+    background: linear-gradient(160deg,#1f4a96,#2367ad,#2286c4,#17a5dc,#1aa8e5,#268dde,#2673d7,#1d59d0);
+    
+}
+
+/*-----------------------------------------------------------------*/
+/* 2. Menu do TOPO
+/*-----------------------------------------------------------------*/
+
+nav a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.menu-topo{
+    
+    background:  linear-gradient(160deg,#1f4a96,#2367ad,#2286c4,#17a5dc,#1aa8e5,#268dde,#2673d7,#1d59d0);
+    background:url(../images/abstrato-transparent.png) center center no-repeat;
+    font-size: 5px;
+    color: white;
+    margin: auto;
+    
+}
+
+.menu-topo > div > ul {
+    list-style: none;
+    display: flex;
+}
+
+.menu-topo > div > ul > li {
+    padding: 5px;
+}
+
+.menu-topo-link{
+    color: white;
+    text-decoration: none;
+    font-size: 10px
+}
+.menu-topo-link:hover{
+    text-decoration: underline;
+}   
+
+.menu-topo-link:visited{
+    color: white;
+}   
+
+.menu-topo-box{
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-end;
+}
+
+/*-----------------------------------------------------------------*/
+/* 3. Menu do Grande  
+/*-----------------------------------------------------------------*/
+
+nav a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.menu{
+    background:white; 
+    color: gray;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    -webkit-box-shadow: 0px 0px 13px 1px rgba(0,0,0,0.87);
+    -moz-box-shadow: 0px 0px 13px 1px rgba(0,0,0,0.87);
+    box-shadow: 0px 0px 13px 1px rgba(0,0,0,0.87);
+}
+
+.menu > div > ul {
+    list-style: none;
+    display: flex;   
+}
+
+.menu > div > ul > li {
+    padding: 10px;
+}
+
+.menu-link{
+    color: gray;
+    text-decoration: none;
+    font-size: 15px
+}
+.menu-link:hover{
+ 
+    color: #2367ad;
+}   
+
+.menu-box{
+        margin: auto;
+        padding: 40px; 
+        text-align: center; 
+        max-width: 500px;
+        color: white; 
+}

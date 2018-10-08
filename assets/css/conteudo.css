@@ -1,0 +1,317 @@
+* {
+    line-height: 25px;
+}
+/*-----------------------------------------------------------------*/
+/* 1. Banner site principal
+/*-----------------------------------------------------------------*/
+.banner-Principal{
+    background:url(../images/Grey-Abstract-Lines-Transparent-Background-PNG.png) center center no-repeat;
+    margin: 0 auto; 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start; 
+    
+}
+
+.banner-internal {
+    background:url(../images/Grey-Abstract-Lines-Transparent-Background-PNG.png) center center no-repeat;
+    margin: 0 auto; 
+    justify-self: flex-start;
+
+}
+
+.banner-principal-box {
+        margin: 0 auto;  
+        padding: 50px;
+        max-width: 500px;
+        color: white;
+        justify-content: flex-end;
+        line-height: 25px;
+}    
+
+.banner-internal-box {
+    margin: 0 auto;  
+    padding: 50px;
+    max-width: 90%;
+    color: white;
+    justify-content: flex-end;
+    
+}    
+
+.btn-conteudo {
+        background-color: #4CAF50; /* Green */
+        color: white;
+        padding: 5px 20px;
+        border: none;
+        border-radius: 5px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        margin: 4px 2px;
+        cursor: pointer;
+        font-size: 15px;
+}
+    
+.btn-conteudo:hover {
+        text-decoration: underline;
+}
+
+iframe {
+    border: 1px solid #1f4a96 ;
+}   
+
+    
+/*-----------------------------------------------------------------*/
+/* 2. Conteudo site principal
+/*-----------------------------------------------------------------*/
+
+.conteudo{
+    background: white;
+}
+
+.conteudo-box {
+    margin: 0 auto; 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start; 
+    -webkit-box-shadow: 3px -18px 21px -20px rgba(0,0,0,0.75);
+    -moz-box-shadow: 3px -18px 21px -20px rgba(0,0,0,0.75);
+    box-shadow: 3px -18px 21px -20px rgba(0,0,0,0.75);
+    
+}
+
+.conteudo-mini-box{
+    margin: 0 auto;
+    padding: 40px; 
+    max-width: 300px;
+    color: gray;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.conteudo-big-box{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 40px; 
+    color: gray;
+    font-size: 15px;
+}
+
+.conteudo-contato-box{
+margin: 0 auto;   
+background: rgb(230, 229, 229);
+padding: 20px; 
+line-height: 25px;
+width: 450px;
+
+}
+
+.conteudo-contato-lateral-box{
+    border-left: 2px dotted gray; 
+    margin: 60px;
+    max-width: 70%;
+    padding: 20px; 
+    line-height: 25px;  
+}
+
+.img-Contact{
+    padding: 0;
+    max-width: 100%;
+    height: auto;
+}
+
+
+h2{
+    font-size: 18px;
+    color: rgb(189, 189, 189); 
+}
+
+h3{
+    font-size: 15px;
+    color: #2367ad;
+}
+
+.conteudo-mini-box-h2{
+    padding: 20px 0 0 0;
+    display: flex;
+    justify-content: flex-start;
+    padding-bottom: 10px;
+}
+
+.conteudo-mini-box-img {
+    border: 1px solid gray;
+    background: white;
+    padding: 5px;   
+    display: flex;
+    justify-content: space-around;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+}
+
+.conteudo-box-parceiros-sombra {
+    -webkit-box-shadow: 0px 19px 21px -20px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 19px 21px -20px rgba(0,0,0,0.75);
+    box-shadow: 0px 19px 21px -20px rgba(0,0,0,0.75);
+}
+
+.conteudo-box-parceiros {
+
+    max-width: 90%;
+    margin: 0 auto;
+    color: gray;
+
+}
+.conteudo-box-parceiros-content {
+    border-top: 1px dotted rgb(219, 218, 218);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 40px;
+    margin: 0 auto;
+
+}
+
+.conteudo-box-parceiros-content-img {
+    margin: 0 auto;
+    display: flex;
+    align-items: flex-end;
+    
+}
+
+/*-----------------------------------------------------------------*/
+/* 3. Form
+/*-----------------------------------------------------------------*/
+
+form {
+    /* Apenas para centralizar o form na página */
+    margin: 0 auto;
+    width: 400px;
+    /* Para ver as bordas do formulário */
+    padding: 10px;
+    font-size: 20px;
+    
+}
+
+form div + div {
+    
+    margin-top: 1em;
+
+}
+
+label {
+    display: inline-block;
+    width: auto;
+    text-align: right;
+    border: #C0392B;
+    
+}
+
+input[type="text"],input[type="email"],input[type="tel"], textarea {
+    width: 400px;
+    font-size: 25px;
+    -moz-box-sizing: border-box;
+    box-sizing: content-box;
+    border: 0.5px solid rgb(206, 206, 206);
+    margin: 1px;
+
+}
+
+textarea {
+    /* Para alinhar corretamente os campos de texto de várias linhas com sua label*/
+    vertical-align: top;
+
+    /* Para dar espaço suficiente para digitar algum texto */
+    height: 10em;
+
+    /* Para permitir aos usuários redimensionarem qualquer textarea verticalmente. Ele não funciona em todos os browsers */
+    resize: vertical;
+}
+
+/*-----------------------------------------------------------------*/
+/* 3. Table Clientes
+/*-----------------------------------------------------------------*/
+
+.tabela{
+    
+}
+
+.tabela img{
+    width: 140px;   
+}
+
+.tabela-topo{
+    
+    border-bottom: 10px dotted gray;
+    
+}
+.tabela-nome-empresa{
+    font-weight: bold;
+    padding: 20px;
+    text-align: center;
+}
+
+/*-----------------------------------------------------------------*/
+/* 3. Produtos
+/*-----------------------------------------------------------------*/
+
+.conteudo-prod-box{
+    margin: 0 auto;
+    padding: 10px; 
+    max-width: 90%;
+    color: gray;
+    font-size: 15px;
+    line-height: 25px;
+
+}
+
+.conteudo-prod-box-h2{
+    padding: 10px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.conteudo-prod-box-img {
+    border: 1px solid gray;
+    margin: 20px;
+    background: white;
+    padding: 15px;   
+    display: flex;
+    justify-content: space-around;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+}
+
+.foto-empresa{
+    padding: 10px;
+    margin: 0;
+    max-width: 600px;
+}
+
+.foto-empresa img{
+    max-width: 600px;
+}
+
+.texto-historia{
+    padding: 10px;
+    max-width: 400px;   
+}
+
+.texto-historia > p {
+    padding: 10px;
+    
+}
+
+.nome-empresa-g{
+    border-top: gray dotted 3px;
+    margin: 10px 0px 0px 0px ;
+    padding: 30px;
+
+}

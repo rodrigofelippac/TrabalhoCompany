@@ -1,0 +1,16 @@
+
+.rodape{
+    padding: 70px 0 10px 0px;
+    background:url(../images/Grey-Abstract-Lines-Transparent-Background-PNG.png) center center no-repeat;
+    display: flex;
+    justify-content: flex-end;         
+}
+
+.rodape-copy{
+    margin: 0 auto;
+    display: flex;
+    color: white;
+    font-weight: bold;
+    font-size: 10px;
+}
+
