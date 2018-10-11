@@ -236,7 +236,7 @@ textarea {
 /* 3. Table Clientes
 /*-----------------------------------------------------------------*/
 
-.tabela{
+.tabela {
     
 }
 
@@ -244,15 +244,11 @@ textarea {
     width: 140px;   
 }
 
-.tabela-topo{
-    
-    border-bottom: 10px dotted gray;
-    
-}
 .tabela-nome-empresa{
     font-weight: bold;
     padding: 20px;
     text-align: center;
+    line-height: 25px;
 }
 
 /*-----------------------------------------------------------------*/
