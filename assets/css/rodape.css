@@ -1,16 +1,40 @@
 
 .rodape{
-    padding: 70px 0 10px 0px;
+    padding: 10vh 0 0.1px 0;
     background:url(../images/Grey-Abstract-Lines-Transparent-Background-PNG.png) center center no-repeat;
     display: flex;
     justify-content: flex-end;         
 }
 
-.rodape-copy{
-    margin: 0 auto;
-    display: flex;
-    color: white;
-    font-weight: bold;
-    font-size: 10px;
-}
 
+@media screen and (max-width:480px) {
+
+    .rodape-copy{
+        margin: 0 auto;
+        display: flex;
+        color: white;
+        font-weight: bold;
+        font-size: 5px;
+    }
+
+}
+       
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .rodape-copy{
+        margin: 0 auto;
+        display: flex;
+        color: white;
+        font-weight: bold;
+        font-size: 7px;
+    }
+}
+    
+ @media screen and (min-width: 768px) {
+    .rodape-copy{
+        margin: 0 auto;
+        display: flex;
+        color: white;
+        font-weight: bold;
+        font-size: 10px;
+    }
+}

@@ -23,7 +23,7 @@
 
 .banner-principal-box {
         margin: 0 auto;  
-        padding: 50px;
+        padding: 10vh;
         max-width: 500px;
         color: white;
         justify-content: flex-end;
@@ -32,15 +32,15 @@
 
 .banner-internal-box {
     margin: 0 auto;  
-    padding: 50px;
+    padding: 10vh;
     max-width: 90%;
     color: white;
     justify-content: flex-end;
     
 }    
-
+ 
 .btn-conteudo {
-        background-color: #4CAF50; /* Green */
+        background-color: #4CAF50; /* Botão Verde */
         color: white;
         padding: 5px 20px;
         border: none;
@@ -59,6 +59,10 @@
 
 iframe {
     border: 1px solid #1f4a96 ;
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
 }   
 
     
@@ -151,6 +155,15 @@ h3{
     -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
     box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    
+}
+
+.conteudo-mini-box-img img {
+    max-width:100%;
+    max-height:100%;
+    width: auto;
+    height: auto;
+    
 }
 
 .conteudo-box-parceiros-sombra {
@@ -182,6 +195,12 @@ h3{
     align-items: flex-end;
     
 }
+
+.conteudo-box-parceiros-content-img img {
+    width: 100%;
+    
+}
+
 
 /*-----------------------------------------------------------------*/
 /* 3. Form
@@ -236,10 +255,6 @@ textarea {
 /* 3. Table Clientes
 /*-----------------------------------------------------------------*/
 
-.tabela {
-    
-}
-
 .tabela img{
     width: 140px;   
 }
@@ -289,7 +304,13 @@ textarea {
     padding: 10px;
     margin: 0;
     max-width: 600px;
+} 
+
+.foto-empresa img{
+    width: 100%;
+    max-width: 600px;
 }
+
 
 .foto-empresa img{
     max-width: 600px;
